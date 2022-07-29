@@ -1,0 +1,88 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    /* padding: 0; */
+}
+
+html,body {
+    min-width: 400px;
+}
+
+body {
+    background-color: #202124;   
+}
+
+body, input,button {
+    font-size: 14px;
+    color: #BDC1C6;
+}
+
+a {
+    text-decoration: none;
+    color:#BDC1C6;
+}
+
+header {
+    height: 10vh;
+    /* background-color: red; */
+}
+
+section {
+    height: 70vh;
+}
+
+footer { 
+    height: 20vh;
+    background-color: #171717;
+   color: #BDC1C6;
+}
+
+.header {
+    display: flex;
+    margin: 2.5vh 1.5vw;
+}
+
+a.head_info {
+    padding: 5px;
+    display: inline-block;
+    margin: 0 5px;
+}
+.left_head {
+    display: flex;
+}
+.right_head {
+    display: flex;
+}
+
+.account_img {
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.st_logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input_container {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.st_input {
+    height: 30px;
+    width: 35vw;
+    border-radius: 30px;
+}
+
+.btn_container {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+button {
+    border-radius: 3px;
+    background-color:#2F3134;
+    border: 0;
+    height: 30px;
+}
